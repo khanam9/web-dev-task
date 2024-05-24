@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Company Team Page</title>
+<style>
+    body {
+        font-family: Arial, sans-serif;
+        margin: 0;
+        padding: 0;
+        background-color: #f0f0f0;
+    }
+    .container {
+        max-width: 800px;
+        margin: 20px auto;
+        padding: 20px;
+        background-color: #fff;
+        border-radius: 10px;
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    }
+    h1, h2 {
+        text-align: center;
+    }
+    h1 {
+        color: #333; /* Add your desired color here */
+    }
+    p {
+        text-align: center;
+    }
+    .team-section {
+        margin-top: 30px;
+    }
+    .team-category {
+        margin-top: 20px;
+    }
+    .team-category h3 {
+        margin-bottom: 10px;
+    }
+    .team-member {
+        display: flex;
+        justify-content: space-around;
+        flex-wrap: wrap;
+    }
+    .team-member .person {
+        width: calc(33.33% - 20px);
+        margin: 10px;
+        padding: 20px;
+        background-color: #f9f9f9;
+        border-radius: 5px;
+        box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+    }
+    .team-member .person img {
+        width: 100%;
+        border-radius: 5px;
+    }
+    .team-member .person h4 {
+        margin-top: 10px;
+        text-align: center;
+    }
+</style>
+</head>
+<body>
+
+<div class="container">
+    <h1 style="color: #333;">Company Name</h1>
+    <p>Short 2 lines description about the company.</p>
+
+    <h2>Our Team</h2>
+
+    <div class="team-section">
+        <div class="team-category">
+            <h3>Founders</h3>
+            <div class="team-member">
+                <div class="person">
+                    <img src="founder1.jpg" alt="Founder 1">
+                    <h4>Founder 1</h4>
+                </div>
+                <div class="person">
+                    <img src="founder2.jpg" alt="Founder 2">
+                    <h4>Founder 2</h4>
+                </div>
+                <!-- Add more founders as needed -->
+            </div>
+        </div>
+
+        <div class="team-category">
+            <h3>Developers</h3>
+            <div class="team-member">
+                <div class="person">
+                    <img src="developer1.jpg" alt="Developer 1">
+                    <h4>Developer 1</h4>
+                </div>
+                <div class="person">
+                    <img src="developer2.jpg" alt="Developer 2">
+                    <h4>Developer 2</h4>
+                </div>
+                <!-- Add more developers as needed -->
+            </div>
+        </div>
+
+        <div class="team-category">
+            <h3>Sales and Management</h3>
+            <div class="team-member">
+                <div class="person">
+                    <img src="sales1.jpg" alt="Sales 1">
+                    <h4>Sales 1</h4>
+                </div>
+                <div class="person">
+                    <img src="management1.jpg" alt="Management 1">
+                    <h4>Management 1</h4>
+                </div>
+                <!-- Add more sales and management as needed -->
+            </div>
+        </div>
+    </div>
+</div>
+
+</body>
+</html>
